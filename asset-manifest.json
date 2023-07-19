@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/taskapp/static/css/main.4279a5b2.css",
+    "main.js": "/taskapp/static/js/main.72a34a9e.js",
+    "static/js/787.0030736e.chunk.js": "/taskapp/static/js/787.0030736e.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/taskapp/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/taskapp/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/background.jpg": "/taskapp/static/media/background.a6a22071eadfe96b0822.jpg",
+    "index.html": "/taskapp/index.html",
+    "main.4279a5b2.css.map": "/taskapp/static/css/main.4279a5b2.css.map",
+    "main.72a34a9e.js.map": "/taskapp/static/js/main.72a34a9e.js.map",
+    "787.0030736e.chunk.js.map": "/taskapp/static/js/787.0030736e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4279a5b2.css",
+    "static/js/main.72a34a9e.js"
+  ]
+}
