@@ -11,8 +11,8 @@ export default function TaskApp() {
   const [data,setData]=useState([]);
   useEffect(()=>{
 
-      axios.get("https://task-4ym2.onrender.com/task")
-      // axios.get("http://localhost:4000/task")
+      // axios.get("https://task-4ym2.onrender.com/task")
+      axios.get("http://localhost:4000/task")
       .then((response)=>{
       
           setData(response.data)
@@ -29,8 +29,8 @@ export default function TaskApp() {
       task:task.current.value,
       date:date.current.value,
     }
-    axios.post("https://task-4ym2.onrender.com/task",insert)
-    // axios.post("http://localhost:4000/task",insert)
+    // axios.post("https://task-4ym2.onrender.com/task",insert)
+    axios.post("http://localhost:4000/task",insert)
     .then(()=>{
       // Swal(
       //   'Your task is Ready!',

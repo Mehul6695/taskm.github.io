@@ -21,10 +21,6 @@ root.render(
       <Route path='/' element={<TaskApp />} />
       <Route path='UpdateApp/:id' element={<UpdateApp />} />
       <Route path='DeletApp/:id' element={<DeletApp />} />
-
-
-   
-
     </Routes>
     </BrowserRouter>
   
