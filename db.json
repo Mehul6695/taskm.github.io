@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "task": [
+    {
+      "task": "java",
+      "date": "2023-07-08",
+      "id": 4
+    },
+    {
+      "task": "fgjhgjh",
+      "date": "2023-07-13",
+      "id": 5
+    },
+    {
+      "task": "tjyjjyjtytf",
+      "date": "2023-07-15",
+      "id": 6
+    },
+    {
+      "task": "java",
+      "date": "2023-07-08",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
