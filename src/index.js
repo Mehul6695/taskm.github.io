@@ -18,7 +18,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<TaskApp />} />
+      <Route path='/taskm' element={<TaskApp />} />
       <Route path='UpdateApp/:id' element={<UpdateApp />} />
       <Route path='DeletApp/:id' element={<DeletApp />} />
     </Routes>

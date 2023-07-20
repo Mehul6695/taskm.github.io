@@ -32,15 +32,16 @@ export default function TaskApp() {
     axios.post("https://task-4ym2.onrender.com/task",insert)
     // axios.post("http://localhost:4000/task",insert)
     .then(()=>{
-      // Swal(
-      //   'Your task is Ready!',
-      //   'Press ok and finish your task!',
-      //   'success');
+     
            
       
     });
+    Swal(
+      'Your task is Ready!',
+      'Press ok and finish your task!',
+      'success');
    
-    alert("Your Task is Added");
+    // alert("Your Task is Added");
   }
   
 
