@@ -40,7 +40,7 @@ export default function TaskApp() {
       
     });
    
-    alert("done");
+    alert("Your Task is Added");
   }
   
 
