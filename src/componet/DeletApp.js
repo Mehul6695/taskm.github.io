@@ -10,8 +10,8 @@ const{id}=useParams();
 
 useEffect(()=>{
 // call delete api on category
-// axios.delete(`https://task-4ym2.onrender.com/task/${id}`,id).then(()=>{
-  axios.delete(`http://localhost:4000/task/${id}`,id).then(()=>{
+axios.delete(`https://task-4ym2.onrender.com/task/${id}`,id).then(()=>{
+  // axios.delete(`http://localhost:4000/task/${id}`,id).then(()=>{
 Swal({
     title: 'success',
     text: 'Category deleted successfully',

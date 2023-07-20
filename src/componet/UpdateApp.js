@@ -11,8 +11,8 @@ export default function UpdateApp() {
  
 
   useEffect(() => {
-    // axios.get(`https://task-4ym2.onrender.com/task/${id}`).then((response) => {
-      axios.get(`http://localhost:4000/task/${id}`).then((response) => {
+    axios.get(`https://task-4ym2.onrender.com/task/${id}`).then((response) => {
+      // axios.get(`http://localhost:4000/task/${id}`).then((response) => {
       task.current.value = response.data.task;
       date.current.value = response.data.date;
     });
@@ -24,8 +24,8 @@ export default function UpdateApp() {
       date: date.current.value,
     };
 
-    // axios.put(`https://task-4ym2.onrender.com/task/${id}`, upd).then((response) => {
-      axios.put(`http://localhost:4000/task/${id}`, upd).then((response) => {
+    axios.put(`https://task-4ym2.onrender.com/task/${id}`, upd).then((response) => {
+      // axios.put(`http://localhost:4000/task/${id}`, upd).then((response) => {
       Swal({
         title: "success",
         text: "Task Updated successfully",
