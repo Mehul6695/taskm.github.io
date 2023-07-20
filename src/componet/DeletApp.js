@@ -20,7 +20,7 @@ Swal({
   });
   //Navigate('/admin-login/manage-category');
   //setData(response.data);
-  window.location='/';
+  window.location='/taskm.github.io';
 });
 },[]);
  

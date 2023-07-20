@@ -16,11 +16,7 @@ import DeletApp from './componet/DeletApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< HEAD
     <BrowserRouter>
-=======
-    <BrowserRouter >
->>>>>>> 56ca23be79c484ab5c32b7077d3cd50231ef6c75
     <Routes>
       <Route path='/taskm.github.io' element={<TaskApp />} />
       <Route path='UpdateApp/:id' element={<UpdateApp />} />

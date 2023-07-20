@@ -72,13 +72,13 @@ export default function UpdateApp() {
                 />
               </div>
               <div className="modal-footer">
-                <Link to="/">
+                <Link to="/taskm.github.io">
                   {" "}
                   <button type="button" class="btn btn-secondary mt-2">
                     Close
                   </button>
                 </Link>
-                <Link to="/">
+                <Link to="/taskm.github.io">
                 <button
                   type="submit"
                   class="btn btn-primary ms-2 mt-2"
